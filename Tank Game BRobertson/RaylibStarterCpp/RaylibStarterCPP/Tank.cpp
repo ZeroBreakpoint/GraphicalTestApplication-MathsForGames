@@ -127,7 +127,7 @@ void Tank::FireBullet()
     MathClasses::Vector3 bulletDirection = MathClasses::Vector3{ cosf(adjustedRotation), sinf(adjustedRotation), 0.0f };
 
     // Calculate bullet spawn position at the end of the turret
-    float turretLength = turretTexture.height;
+    float turretLength = static_cast<float>(turretTexture.height);
     MathClasses::Vector3 turretEndOffset = MathClasses::Vector3(0.0f, -turretLength, 0.0f); 
     Matrix3 turretTranslation = Matrix3::MakeTranslation(turretOffset.x, turretOffset.y, 0.0f); 
     Matrix3 turretRotationMatrix = Matrix3::MakeRotateZ(turretRotation * DEG2RAD);
