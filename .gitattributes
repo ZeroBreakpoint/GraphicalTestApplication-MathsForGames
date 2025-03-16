@@ -6,3 +6,6 @@
 *.h linguist-detectable=true
 *.c linguist-detectable=false
 *.cs linguist-detectable=false
+*.c linguist-vendored
+*.cs linguist-vendored
+
