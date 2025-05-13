@@ -7,30 +7,28 @@
 
 using namespace MathClasses;
 
+// Tank class controls movement, rotation, firing and drawing of a tank
 class Tank
 {
 public:
     Tank(MathClasses::Vector3 position, Texture2D bodyTexture, Texture2D turretTexture, Texture2D bulletTexture);
-    void Update(float deltaTime);
-    void Draw();
-    void RotateBody(float angle);
-    void MoveBody(float distance);
-    void RotateTurret(float angle);
-    void FireBullet();
+    void Update(float deltaTime); // Handles player input and updates bullets
+    void Draw(); // Renders the tank and its bullets
+    void RotateBody(float angle); // Rotates the tank's body
+    void MoveBody(float distance); // Moves the tank along its facing direction
+    void RotateTurret(float angle); // Rotates the turret independently of the body
+    void FireBullet(); // Spawns a new bullet from the turret's tip
     MathClasses::Vector3 GetPosition() const;
     Matrix3 GetTurretTransform() const;
-    std::vector<Bullet>& GetBullets();
+    std::vector<Bullet>& GetBullets(); // Returns a reference to the bullets vector
 
 private:
-    MathClasses::Vector3 position;
-    float bodyRotation;
-    float turretRotation;
-    Texture2D bodyTexture;
-    Texture2D turretTexture;
-    Texture2D bulletTexture;
-    Matrix3 bodyTransform;
-    Matrix3 turretTransform;
-    MathClasses::Vector3 turretOffset;
-    std::vector<Bullet> bullets;
-
+    MathClasses::Vector3 position; // Tank's world position
+    float bodyRotation; // Angle in degrees for tank body
+    float turretRotation; // Angle in degrees for turret
+    Texture2D bodyTexture, turretTexture, bulletTexture; // Textures used
+    Matrix3 bodyTransform, turretTransform; // Local transformation matrices
+    MathClasses::Vector3 turretOffset; // Offset from tank centre to turret base
+    std::vector<Bullet> bullets; // Collection of active bullets
 };
+

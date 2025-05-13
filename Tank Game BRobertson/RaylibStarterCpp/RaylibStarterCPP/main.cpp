@@ -17,7 +17,7 @@ int main()
     const int screenWidth = 1280;
     const int screenHeight = 720;
 
-    InitWindow(screenWidth, screenHeight, "Tank Game");
+    InitWindow(screenWidth, screenHeight, "Tank Game - Bradley Robertson");
 
     // Loading in textures for the tank body, turret, and bullet
     Texture2D bodyTexture = LoadTexture("../assets/images/body.png");
@@ -33,7 +33,7 @@ int main()
     Color boxColor = GREEN;
 
 
-    SetTargetFPS(60);
+    SetTargetFPS(120);
 
     while (!WindowShouldClose())
     {
