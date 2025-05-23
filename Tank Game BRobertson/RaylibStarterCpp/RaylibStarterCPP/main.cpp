@@ -1,4 +1,3 @@
-#pragma warning( push , 0)
 #include <iostream>
 #include "raylib.h"
 #include <filesystem>
@@ -7,8 +6,6 @@
 #include <vector>
 #define RAYGUI_IMPLEMENTATION
 #define RAYGUI_SUPPORT_ICONS
-
-#pragma warning(pop)
 
 using namespace MathClasses;
 

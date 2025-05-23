@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\GitHub\\GraphicalTestApplicationMathsForGames\\Tank Game BRobertson\\RaylibStarterCpp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{66F97E22-5E02-4257-B75C-DA71B7A17BFF}|RaylibStarterCPP\\RaylibStarterCPP.vcxproj|C:\\GitHub\\GraphicalTestApplicationMathsForGames\\Tank Game BRobertson\\RaylibStarterCpp\\RaylibStarterCPP\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{66F97E22-5E02-4257-B75C-DA71B7A17BFF}|RaylibStarterCPP\\RaylibStarterCPP.vcxproj|solutionrelative:RaylibStarterCPP\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66F97E22-5E02-4257-B75C-DA71B7A17BFF}|RaylibStarterCPP\\RaylibStarterCPP.vcxproj|C:\\GitHub\\GraphicalTestApplicationMathsForGames\\Tank Game BRobertson\\RaylibStarterCpp\\RaylibStarterCPP\\Matrix3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{66F97E22-5E02-4257-B75C-DA71B7A17BFF}|RaylibStarterCPP\\RaylibStarterCPP.vcxproj|solutionrelative:RaylibStarterCPP\\Matrix3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\GitHub\\GraphicalTestApplicationMathsForGames\\Tank Game BRobertson\\RaylibStarterCpp\\RaylibStarterCPP\\main.cpp",
+              "RelativeDocumentMoniker": "RaylibStarterCPP\\main.cpp",
+              "ToolTip": "C:\\GitHub\\GraphicalTestApplicationMathsForGames\\Tank Game BRobertson\\RaylibStarterCpp\\RaylibStarterCPP\\main.cpp",
+              "RelativeToolTip": "RaylibStarterCPP\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-23T04:02:42.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Bullet.h",
               "DocumentMoniker": "C:\\GitHub\\GraphicalTestApplicationMathsForGames\\Tank Game BRobertson\\RaylibStarterCpp\\RaylibStarterCPP\\Bullet.h",
               "RelativeDocumentMoniker": "RaylibStarterCPP\\Bullet.h",
@@ -34,25 +51,24 @@
               "RelativeToolTip": "RaylibStarterCPP\\Bullet.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-23T03:59:34.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T03:59:34.053Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Matrix3.h",
               "DocumentMoniker": "C:\\GitHub\\GraphicalTestApplicationMathsForGames\\Tank Game BRobertson\\RaylibStarterCpp\\RaylibStarterCPP\\Matrix3.h",
               "RelativeDocumentMoniker": "RaylibStarterCPP\\Matrix3.h",
               "ToolTip": "C:\\GitHub\\GraphicalTestApplicationMathsForGames\\Tank Game BRobertson\\RaylibStarterCpp\\RaylibStarterCPP\\Matrix3.h",
               "RelativeToolTip": "RaylibStarterCPP\\Matrix3.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAACIBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-23T03:58:54.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Vector3.h",
               "DocumentMoniker": "C:\\GitHub\\GraphicalTestApplicationMathsForGames\\Tank Game BRobertson\\RaylibStarterCpp\\RaylibStarterCPP\\Vector3.h",
               "RelativeDocumentMoniker": "RaylibStarterCPP\\Vector3.h",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "RaylibStarterCPP\\Vector3.h",
               "ViewState": "AgIAAGkAAAAAAAAAAAAQwJMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-23T03:57:53.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T03:57:53.036Z"
             }
           ]
         }
