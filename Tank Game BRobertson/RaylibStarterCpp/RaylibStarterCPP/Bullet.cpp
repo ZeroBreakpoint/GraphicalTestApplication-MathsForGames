@@ -18,7 +18,7 @@ void Bullet::Update(float deltaTime)
 }
 
 // Draw the bullet with the correct rotation
-void Bullet::Draw()
+void Bullet::Draw() const
 {
     DrawTexturePro(texture, {0, 0, (float)texture.width, (float)texture.height},
                   {position.x, position.y, (float)texture.width, (float)texture.height},

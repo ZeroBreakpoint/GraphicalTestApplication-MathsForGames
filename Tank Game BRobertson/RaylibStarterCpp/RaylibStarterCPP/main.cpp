@@ -62,5 +62,7 @@ int main()
 
     CloseWindow();
 
+    system("pause");
+
     return 0;
 }

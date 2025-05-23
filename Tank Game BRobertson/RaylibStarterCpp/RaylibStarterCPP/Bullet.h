@@ -15,7 +15,7 @@ public:
     void Update(float deltaTime);
 
     // Draws the bullet on the screen with the correct rotation
-    void Draw();
+    void Draw() const;
 
     // Checks if the bullet has moved outside the screen bounds
     bool IsOutOfBounds() const;
